@@ -118,11 +118,12 @@ left: 50px;
     height: 200px;
     margin-left: 10%;
     margin-right:10%;
-    height: 500px;
+    height: auto;
 }
 #about-section{
     display: flex;
    padding-top: 30px;
+   margin-left: 20%;
     
 }
 .profile-picture{
