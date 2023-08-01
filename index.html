@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.1.0_swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="cointainer">
+        <!-- Navigation -->
+       <nav class="nav">
+         <div class="nav_bar">
+             <a class="logouser"  href="index.html">Saman</a>
+
+             <div class="" id="nav_items">
+				<ul class="navbar_li">
+					<a href="#home-section" class="nav_link"><span>Home</span></a>
+					<a href="#about-section" class="nav_link"><span>About</span></a>
+					<a href="#skills-section" class="nav_link"><span>Skills</span></a>
+					<a href="#services-section" class="nav_link"><span>Services</span></a>
+					<a href="#projects-section" class="nav_link"><span>Projects</span></a>
+					<a href="#blog-section" class="nav_link"><span>Blog</span></a>
+					<a href="#contact-section" class="nav_link"><span>Contact</span></a>
+				</ul>
+			</div>
+         </div>
+       </nav>
+    
+       <!-- Home section -->
+
+       <section id="home-section" class="main swiper mySwiper">
+           <div class="wrapper swiper-wrapper">
+             <div class="slide swiper-slide">
+                <img src="images/image1.jpg" alt="" srcset="" class="image">
+                <div class="image-data">
+                    <span class="text">Hello I am Saman.</span>
+                    <h1>Nice to meet you. <br>
+                         Let's discuss</h1>
+                         <a href="#" class="button">About Me</a>
+                </div>
+             </div>
+             <div class="slide swiper-slide">
+                <img src="images/image2.jpg" alt="" srcset="" class="image">
+                <div class="image-data">
+                    <span class="text">Hello I am Saman.</span>
+                    <h1>Nice to meet you. <br>
+                         Let's discuss</h1>
+                         <a href="#" class="button">About Me</a>
+                </div>
+             </div>
+             <div class="slide swiper-slide">
+                <img src="images/image3.jpg" alt="" srcset="" class="image">
+                <div class="image-data">
+                    <span class="text">Hello I am Saman.</span>
+                    <h1>Nice to meet you. <br>
+                         Let's discuss</h1>
+                         <a href="#" class="button">About Me</a>
+                </div>
+             </div>
+           </div>
+           <div class="swiper-button-next nav-btn"></div>
+           <div class="swiper-button-prev nav-btn" ></div>
+           <div class="swiper-pagination"></div>
+       </section>
+
+    </div>
+
+    <script src="js/cdn.jsdelivr.net_npm_swiper@10.1.0_swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+      <script src="script.js"></script>
+</body>
+</html>
