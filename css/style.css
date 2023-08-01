@@ -396,3 +396,36 @@ left: 50px;
   .contact-section h2{
     margin-left: 45%;
   }
+  .footer{
+    display: flex;
+    background-color: black;
+  }
+  .fli1{
+    background-color: black;
+    color: white;
+    width: 25%;
+    margin-left: 25px;
+  }
+  .fli2{
+    background-color: black;
+    color: white;
+    width: 25%;
+    margin-left: 25px;
+  }
+  .fli3{
+    background-color: black;
+    color: white;
+    width: 25%;
+    margin-left: 25px;
+  }
+  .fli4{
+    background-color: black;
+    color: white;
+    width: 25%;
+    margin-left: 25px;
+  }
+ .footer a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+ }
