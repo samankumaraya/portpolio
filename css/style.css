@@ -365,3 +365,34 @@ left: 50px;
     margin-left: 43%;
     font-size: 30px;
   }
+  /* contact */
+
+  .contact-cointainer{
+    display: flex;
+    margin-left: 10%;
+  }
+  .contact-cointainer img{
+      width: 150px;
+      height: 150px;
+  }
+  .contact-cointainer h3{
+    margin-left: 50px;
+  }
+  .contact-cointainer .address {
+    margin-left: 150px;
+  }
+  .contact-cointainer .number {
+    margin-left: 30px;
+  }
+  .contact-cointainer .email {
+    margin-left: 30px;
+  }
+  .contact-cointainer .website {
+    margin-left: 30px;
+  }
+  .contact-cointainer .twitter {
+    margin-left: 30px;
+  }
+  .contact-section h2{
+    margin-left: 45%;
+  }
