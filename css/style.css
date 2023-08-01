@@ -115,6 +115,34 @@ left: 50px;
     background-color: #C87E4F;
 }
 #about-section{
-    background-color: red;
     height: 200px;
+    margin-left: 10%;
+    margin-right:10%;
+    height: 500px;
+}
+#about-section{
+    display: flex;
+   padding-top: 30px;
+    
+}
+.profile-picture{
+    width: 30%;
+    
+}
+.about-profile-img{
+    margin-left: 30%;
+    margin-top: 39%;
+}
+.d-flex{
+    text-decoration: none;
+    list-style-type: none;
+}
+.Aboutme{
+    font-size: 30px;
+}
+.aboutdes{
+    font-size: 20px;
+}
+.about-info .d-flex span{
+    margin-left: 5%;
 }
