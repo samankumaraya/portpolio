@@ -114,3 +114,7 @@ left: 50px;
     border:2px solid #fff;
     background-color: #C87E4F;
 }
+#about-section{
+    background-color: red;
+    height: 200px;
+}
