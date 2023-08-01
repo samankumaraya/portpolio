@@ -72,10 +72,10 @@ progressGroups.forEach((progress, index) => {
 const container1 = document.querySelector(".skill-per1");
 
 const courses1 = [
-  { course: "a", percent: 99, color: "#f9ca24" },
-  { course: "b", percent: 65, color: "#78e08f" },
-  { course: "c", percent: 35, color: "#c56cf0" },
-  { course: "d", percent: 85, color: "#badc58" },
+  { course: "React", percent: 80, color: "#f9ca24" },
+  { course: "Spring boot", percent: 20, color: "#78e08f" },
+  { course: "angular", percent: 30, color: "#c56cf0" },
+  { course: "Node js", percent: 30, color: "#badc58" },
 ];
 
 courses1.forEach((course) => {
