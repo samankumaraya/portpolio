@@ -147,3 +147,145 @@ left: 50px;
 .about-info .d-flex span{
     margin-left: 5%;
 }
+.skillbar1{
+    display: flex;
+}
+#skills-section{
+    
+    margin-top: 0px;
+    background-color: #C87E4F;
+}
+#skills-section .skill-per{
+    display: flex;
+    gap: 10px;
+}
+.circular-progress{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+}
+.progess-group {
+    background-color: #535c68;
+    width: 300px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  
+  .circular-progress {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .circular-progress::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #535c68;
+  }
+  .course-value {
+    position: relative;
+    color: #eb4d4b;
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .text {
+    margin-top: 18px;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+  }
+  .skill-per{
+    margin-left: 9%;
+  }
+  .skill-per1{
+    margin-top: 10px;
+    margin-left: 9%;
+    display: flex;
+  gap: 10px;
+  }
+  .skill-header{
+    font-size: 30px;
+    margin-left: 40%;
+    align-items: center;
+  }
+
+  .progess-group1 {
+    background-color: #535c68;
+    width: 300px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  
+  .circular-progress1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .circular-progress1::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #535c68;
+  }
+  .course-value1 {
+    position: relative;
+    color: #eb4d4b;
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .text1 {
+    margin-top: 18px;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+  }

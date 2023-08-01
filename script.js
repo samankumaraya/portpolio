@@ -25,8 +25,83 @@ function typeWriter() {
   }
 }
 
+// samana
 
-  
-   
+const container = document.querySelector(".skill-per");
 
+const courses = [
+  { course: "HTML", percent: 99, color: "#f9ca24" },
+  { course: "CSS", percent: 65, color: "#78e08f" },
+  { course: "JavaScript", percent: 35, color: "#c56cf0" },
+  { course: "Bootstrap", percent: 85, color: "#badc58" },
+];
 
+courses.forEach((course) => {
+  container.innerHTML += `
+  <div class="progess-group">
+  <div class="circular-progress" >
+    
+  </div>
+  <label class="text" style="color:${course.color}">${course.course}</label>
+</div>
+  `;
+});
+
+//style="  background: conic-gradient(${course.color} ${3.6 * course.percent}deg, #fff 0deg);"
+
+const progressGroups = document.querySelectorAll(".progess-group");
+
+progressGroups.forEach((progress, index) => {
+  let progressStartValue = 0;
+  let progressStartEnd = courses[index].percent;
+  let speed = 50;
+  let progessTimer = setInterval(() => {
+    progressStartValue++;
+    if (progressStartValue == progressStartEnd) {
+      clearInterval(progessTimer);
+    }
+    progress.querySelector(".circular-progress").style.background = `
+    conic-gradient(${courses[index].color} ${3.6 * progressStartValue}deg, #fff 0deg)`;
+
+    progress.querySelector(".course-value").innerHTML = progressStartValue + "%";
+  }, speed);
+});
+
+// kumaraya
+
+const container1 = document.querySelector(".skill-per1");
+
+const courses1 = [
+  { course: "a", percent: 99, color: "#f9ca24" },
+  { course: "b", percent: 65, color: "#78e08f" },
+  { course: "c", percent: 35, color: "#c56cf0" },
+  { course: "d", percent: 85, color: "#badc58" },
+];
+
+courses1.forEach((course) => {
+  container1.innerHTML += `
+  <div class="progess-group1">
+  <div class="circular-progress1" >
+    
+  </div>
+  <label class="text1" style="color:${course.color}">${course.course}</label>
+</div>
+  `;
+});
+const progressGroups1 = document.querySelectorAll(".progess-group1");
+
+progressGroups1.forEach((progress, index) => {
+  let progressStartValue1 = 0;
+  let progressStartEnd1 = courses1[index].percent;
+  let speed1 = 50;
+  let progessTimer1 = setInterval(() => {
+    progressStartValue1++;
+    if (progressStartValue1 == progressStartEnd1) {
+      clearInterval(progessTimer1);
+    }
+    progress.querySelector(".circular-progress1").style.background = `
+    conic-gradient(${courses[index].color} ${3.6 * progressStartValue1}deg, #fff 0deg)`;
+
+    progress.querySelector(".course-value").innerHTML = progressStartValue1 + "%";
+  }, speed1);
+});
