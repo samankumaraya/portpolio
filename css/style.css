@@ -293,7 +293,7 @@ left: 50px;
     display: flex;
     gap: 10px;
     margin-top: 20px;
-    margin-left: 10%;
+    margin-left: 13%;
   }
   .ser-bar1 img{
     width: 80%;
@@ -303,7 +303,7 @@ left: 50px;
     display: flex;
     gap: 10px;
     margin-top: 20px;
-    margin-left: 10%;
+    margin-left: 13%;
   }
   .ser-bar2 img{
     width: 80%;
@@ -428,4 +428,16 @@ left: 50px;
     color: #fff;
     font-size: 20px;
     text-decoration: none;
+ }
+ .service-header .ser-bar1 img{
+  width: 100px;
+  height: 300px;
+ }
+ #serimg{
+  width: 350px;
+  margin-right: 25px;
+  margin-top: 25px
+ }
+ #serimg:hover{
+  
  }
