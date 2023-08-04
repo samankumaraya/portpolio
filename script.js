@@ -105,3 +105,5 @@ progressGroups1.forEach((progress, index) => {
     progress.querySelector(".course-value").innerHTML = progressStartValue1 + "%";
   }, speed1);
 });
+
+
