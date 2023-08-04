@@ -401,36 +401,39 @@ left: 50px;
   }
   .footer{
     display: flex;
-    background-color: black;
+    background-color: rgb(14, 70, 93);
+    height: 300px;
   }
   .fli1{
-    background-color: black;
-    color: white;
+    background-color:rgb(14, 70, 93);
+    color: rgb(214, 214, 57);
     width: 25%;
     margin-left: 25px;
   }
   .fli2{
-    background-color: black;
-    color: white;
+    background-color: rgb(14, 70, 93);
+    color: rgb(214, 214, 57);
     width: 25%;
     margin-left: 25px;
   }
   .fli3{
-    background-color: black;
-    color: white;
+    background-color: rgb(14, 70, 93);
+    color:rgb(214, 214, 57);
     width: 25%;
     margin-left: 25px;
   }
   .fli4{
-    background-color: black;
-    color: white;
+    background-color: rgb(14, 70, 93);
+    color: rgb(214, 214, 57);
     width: 25%;
     margin-left: 25px;
   }
  .footer a{
-    color: #fff;
+    color: #ff44c7;
     font-size: 20px;
     text-decoration: none;
+    margin-bottom: 35px;
+    padding-bottom: 25px;
  }
  .service-header .ser-bar1 img{
   width: 100px;
@@ -479,4 +482,30 @@ left: 50px;
 #proimg:hover{
   opacity: 0.5;
  
+}
+.blog1-div{
+  width: 300px;
+  height: 250px; 
+  border-style:solid;
+}
+.blog1-div img{
+  width: 250px;
+  height: 150px;
+  margin-left: 8%;
+}
+.blog-head{
+  margin-left: 26%;
+}
+.pro-bar1{
+  margin-left: 9%;
+}
+.pro-bar2{
+  margin-left: 9%;
+}
+#social-media{
+  display: flex;
+  list-style: none;
+}
+.footerline{
+  margin-bottom: 20px;
 }
