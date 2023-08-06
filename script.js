@@ -106,4 +106,67 @@ progressGroups1.forEach((progress, index) => {
   }, speed1);
 });
 
+document.getElementById("homeButton").addEventListener("click", function() {
+  var menu = document.getElementById("home-section");
+  if (menu.style.display === "none") {
+      menu.style.display = "block";
+  } else {
+      menu.style.display = "none";
+  }
+});
 
+document.getElementById("aboutButton").addEventListener("click", function() {
+  var menu = document.getElementById("about-section");
+  if (menu.style.display === "none") {
+      menu.style.display = "block";
+  } else {
+      menu.style.display = "none";
+  }
+});
+
+document.getElementById("skillButton").addEventListener("click", function() {
+  var menu = document.getElementById("skills-section");
+  if (menu.style.display === "none") {
+      menu.style.display = "block";
+  } else {
+      menu.style.display = "none";
+  }
+});
+
+document.getElementById("serviceButton").addEventListener("click", function() {
+  var menu = document.getElementById("services-section");
+  if (menu.style.display === "none") {
+      menu.style.display = "block";
+  } else {
+      menu.style.display = "none";
+  }
+});
+
+document.getElementById("projectButton").addEventListener("click", function() {
+  var menu = document.getElementById("projects-section");
+  if (menu.style.display === "none") {
+      menu.style.display = "block";
+  } else {
+      menu.style.display = "none";
+  }
+});
+
+document.getElementById("blogButton").addEventListener("click", function() {
+  var menu = document.getElementById("blog-section");
+  if (menu.style.display === "none") {
+      menu.style.display = "block";
+  } else {
+      menu.style.display = "none";
+  }
+});
+
+document.getElementById("contactButton").addEventListener("click", function() {
+  var menu = document.getElementById("contact-section");
+  if (menu.style.display === "none") {
+      menu.style.display = "block";
+  } else {
+      menu.style.display = "none";
+  }
+});
+
+// 

@@ -509,3 +509,25 @@ left: 50px;
 .footerline{
   margin-bottom: 20px;
 }
+#home-section{
+  display: none;
+}
+#about-section{
+  display: none;
+}
+#skills-section{
+  display: none;
+}
+#services-section{
+  display: none;
+}
+#projects-section{
+  display: none;
+}
+#blog-section{
+  display: none;
+}
+#contact-section{
+  display: none;
+}
+/* new */
