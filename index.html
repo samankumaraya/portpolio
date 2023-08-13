@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js”></script>
     <script src=”https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js”></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Home Page</title>
 </head>
@@ -35,7 +38,7 @@
        </nav>
     
        <!-- Home section -->
-       <button id="homeButton">Home section</button><br>
+       
        <section id="home-section" class="main swiper mySwiper">
            <div class="wrapper swiper-wrapper">
              <div class="slide swiper-slide">
@@ -79,16 +82,16 @@
            <div class="swiper-button-prev nav-btn" ></div>
            <div class="swiper-pagination"></div>
        </section>
-       <button id="aboutButton">About section</button><br>
+       <button id="aboutButton">About Me</button><br>
 <!-- about -->
        <section id="about-section" class="main swiper mySwiper">
           <div class="profile-picture">
-               <img src="images/profile.png" alt="profile" srcset="" class="">
+               <img  id="profilepoto"  src="images/profile.jpeg" alt="profile" srcset="" class="">
           </div>
           <div class="self-details">
             
-            <h2 class="Aboutme">About Me</h2>
-            <p class="aboutdes">If you want to follow me you can follow me via below details.</p>
+        
+            <p class="aboutdes">These are brief introduction about myself.</p>
             <ul class="about-info">
               <li class="d-flex"><span>Name:</span> <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saman Kumara</span></li>
               <li class="d-flex"><span>Date of birth:</span> <span>August 01, 2000</span></li>
@@ -99,10 +102,10 @@
             </ul>
           </div>
        </section>
-       <button id="skillButton">Skill section</button><br>
+       <button id="skillButton">My Skills</button><br>
 <!-- skill section -->
        <section class="skills-section" id="skills-section">
-             <h1 class="skill-header">This is skills section</h1>
+            <!--  
              <div class="skill-per">
 
              </div>
@@ -110,12 +113,15 @@
              <div class="skill-per1">
 
              </div> 
-       </section>
+             
+            -->
+
+            
   <!-- services section -->
-  <button id="serviceButton">Service section</button><br>
+  <button id="serviceButton">My Services</button><br>
   <section class="services-section" id="services-section">
        <div class="ser-container">
-        <h3 class="service-header">Services</h3>
+        
           <div class="ser-bar1">
               <a href="http://"><img class="serimg" id="serimg" src="images/service1.jpg" alt="" srcset=""></a>
               <a href="http://"><img id="serimg" src="images/service2.jpg" alt="" srcset=""></a>
@@ -130,11 +136,11 @@
 
        
   </section>
-  <button id="projectButton">Project section</button><br>
+  <button id="projectButton">My Projects</button><br>
   <!-- project section -->
   <section class="projects-section" id="projects-section">
          <div class="pro-container">
-          <h1 class="project-headertag" id="project-headertag">My Projects</h1>
+  
           <div class="pro-bar1">
               <a href="http://"><img id="proimg" src="images/project.png" alt="" srcset=""></a>
               <a href="http://"><img id="proimg" src="images/project1.jpeg" alt="" srcset=""></a>
@@ -148,60 +154,60 @@
          </div>
   </section>
 
-  <button id="blogButton">Blog section</button><br>
+  <button id="blogButton">My Blog Articals</button><br>
   <!-- blog section -->
   <section class="blog-section" id="blog-section">
     <div class="blog-container">
-      <h3 class="blog-header">My blog Article</h3>
+      
        <div class="pro-bar1">
-        <a href="">
+        <a href="https://medium.com/@samankumararajapaksha660/building-your-own-os-part-1-75fb1aac101c">
           <div class="blog1-div">
-            <h2 class="blog-head">Blog topic</h2>
-            <img src="images/blog1.jpeg" alt="" class="blog-img">
+            <h2 class="blog-head" id="blog-head">Build Own Os</h2>
+            <img src="images/1.JPG" alt="" class="blog-img">
           </div>
         </a>
-        <a href="">
+        <a href="https://medium.com/@samankumararajapaksha660/software-license-e24ee5248a88">
           <div class="blog1-div">
-            <h2 class="blog-head">Blog topic</h2>
-            <img src="images/blog1.jpeg" alt="" class="blog-img">
+            <h2 class="blog-head" id="blog-head">software license</h2>
+            <img src="images/2.JPG" alt="" class="blog-img">
           </div>
         </a>
-        <a href="">
+        <a href="https://medium.com/@samankumararajapaksha660/building-your-own-os-part-2-7b8414c20d31">
           <div class="blog1-div">
-            <h2 class="blog-head">Blog topic</h2>
-            <img src="images/blog1.jpeg" alt="" class="blog-img">
+            <h2 class="blog-head " id="blog-head">building os</h2>
+            <img src="images/3.JPG" alt="" class="blog-img">
           </div>
         </a>
-        <a href="">
+        <a href="https://medium.com/@samankumararajapaksha660/building-your-own-os-part-3-c85548c798c7">
           <div class="blog1-div">
-            <h2 class="blog-head">Blog topic</h2>
-            <img src="images/blog1.jpeg" alt="" class="blog-img">
+            <h2 class="blog-head" id="blog-head">OS</h2>
+            <img src="images/4.JPG" alt="" class="blog-img">
           </div>
         </a>
        </div>
        <div class="pro-bar2">
-        <a href="">
+        <a href="https://medium.com/@samankumararajapaksha660/my-minimal-operating-system-678a5ff7819">
           <div class="blog1-div">
-            <h2 class="blog-head">Blog topic</h2>
-            <img src="images/blog1.jpeg" alt="" class="blog-img">
+            <h2 class="blog-head" id="blog-head">OS</h2>
+            <img src="images/5.jpg" alt="" class="blog-img">
           </div>
         </a>
         <a href="">
           <div class="blog1-div">
-            <h2 class="blog-head">Blog topic</h2>
-            <img src="images/blog1.jpeg" alt="" class="blog-img">
+            <h2 class="blog-head" id="blog-head">Blog topic</h2>
+            <img src="images/5.png" alt="" class="blog-img">
           </div>
         </a>
         <a href="">
           <div class="blog1-div">
-            <h2 class="blog-head">Blog topic</h2>
-            <img src="images/blog1.jpeg" alt="" class="blog-img">
+            <h2 class="blog-head" id="blog-head">Blog topic</h2>
+            <img src="images/5.png" alt="" class="blog-img">
           </div>
         </a>
         <a href="">
           <div class="blog1-div">
-            <h2 class="blog-head">Blog topic</h2>
-            <img src="images/blog1.jpeg" alt="" class="blog-img">
+            <h2 class="blog-head" id="blog-head">Blog topic</h2>
+            <img src="images/5.png" alt="" class="blog-img">
           </div>
         </a>
        </div>
@@ -209,37 +215,38 @@
   </section>
 
   <!-- contact section -->
-  <button id="contactButton">contact section</button><br>
+  <button id="contactButton">Contact Me</button><br>
   <section class="contact-section" id="contact-section">
-      <h2>Contact Me</h3>
+     
     <div class="contact-cointainer">
-       <div class="address">
-         <a href="http://"><img src="images/location.png" alt="" srcset=""></a>
+       <div class="socialprof">
+        
+         <a href="https://goo.gl/maps/1811hsHji5SQVhrk9"><i class="fa-solid fa-location-dot"></i></a>
          <h3>Adress</h3>
-       </div>
-       <div class="number">
-        <a href=""><img src="images/phone.png" alt="" srcset=""></a>
-         <h3>Phone <br> Number</h3>
          
        </div>
-       <div class="email">
-        <a href=""><img src="images/email.png" alt="" srcset=""></a>
-         <h3>Email</h3>
+       <div class="socialprof">
+        <a href="tel:+94 76 619 9583"><i class="fa-solid fa-mobile"></i></a>
+         <h3>Phone <br> 
+         
        </div>
-       <div class="website">
-        <a href=""><img src="images/website.png" alt="" srcset=""></a>
-         <h3>website</h3>
+       <div class="socialprof">
+        <a href=""><i class="fa-solid fa-envelope"></i></a>
+         <h3>Email : <br> <a href = "mailto:samankumaraya1@gmail.com?subject = Saman = kumara">
+          </h3>
        </div>
-       <div class="twitter">
-        <a href=""><img src="images/twitter.png" alt="" srcset=""></a>
+       <div class="socialprof">
+        <i class="fa-solid fa-magnifying-glass"></i>
+         <a href="https://www.google.com">website</a>
+       </div>
+       <div class="socialprof">
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
         <h3>Twitter</h3>
        </div>
     </div>
   </section>
 
-  <footer class="footer">
-         
-  </footer>
+  
   
     </div>
 
@@ -261,6 +268,7 @@
             prevEl: ".swiper-button-prev",
           },
         });     
+        
       </script>
 
 

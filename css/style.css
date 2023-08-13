@@ -80,6 +80,9 @@ a.button{
     margin-top: 25px;
     transition: all 0.3s ease;
 }
+.self-details{
+  font-size: 20px;
+}
 a.button:hover{
     color: #fff;
     background-color: #C87E4F;
@@ -282,6 +285,10 @@ left: 50px;
     font-size: 35px;
     font-weight: 500;
   }
+  #blog-head{
+    color: #333;
+    text-decoration: none;
+  }
   .text1 {
     margin-top: 18px;
     font-size: 25px;
@@ -294,6 +301,11 @@ left: 50px;
     gap: 10px;
     margin-top: 20px;
     margin-left: 12%;
+  }
+  #profilepoto{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
   }
   .ser-bar1 img{
     width: 80%;
@@ -369,71 +381,21 @@ left: 50px;
     font-size: 30px;
   }
   /* contact */
-
   .contact-cointainer{
     display: flex;
-    margin-left: 10%;
+    width: 100%;
+    justify-content: center;
   }
-  .contact-cointainer img{
-      width: 150px;
-      height: 150px;
-  }
-  .contact-cointainer h3{
-    margin-left: 50px;
-  }
-  .contact-cointainer .address {
-    margin-left: 150px;
-  }
-  .contact-cointainer .number {
-    margin-left: 30px;
-  }
-  .contact-cointainer .email {
-    margin-left: 30px;
-  }
-  .contact-cointainer .website {
-    margin-left: 30px;
-  }
-  .contact-cointainer .twitter {
-    margin-left: 30px;
-  }
-  .contact-section h2{
-    margin-left: 45%;
-  }
-  .footer{
-    display: flex;
-    background-color: rgb(14, 70, 93);
-    height: 300px;
-  }
-  .fli1{
-    background-color:rgb(14, 70, 93);
-    color: rgb(214, 214, 57);
-    width: 25%;
-    margin-left: 25px;
-  }
-  .fli2{
-    background-color: rgb(14, 70, 93);
-    color: rgb(214, 214, 57);
-    width: 25%;
-    margin-left: 25px;
-  }
-  .fli3{
-    background-color: rgb(14, 70, 93);
-    color:rgb(214, 214, 57);
-    width: 25%;
-    margin-left: 25px;
-  }
-  .fli4{
-    background-color: rgb(14, 70, 93);
-    color: rgb(214, 214, 57);
-    width: 25%;
-    margin-left: 25px;
-  }
- .footer a{
-    color: #ff44c7;
-    font-size: 20px;
+ .socialprof{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+ }
+ .socialprof a{
     text-decoration: none;
-    margin-bottom: 35px;
-    padding-bottom: 25px;
+    color: #333;
  }
  .service-header .ser-bar1 img{
   width: 100px;
@@ -509,25 +471,92 @@ left: 50px;
 .footerline{
   margin-bottom: 20px;
 }
-#home-section{
-  display: none;
-}
-#about-section{
-  display: none;
-}
-#skills-section{
-  display: none;
-}
-#services-section{
-  display: none;
-}
-#projects-section{
-  display: none;
-}
-#blog-section{
-  display: none;
-}
-#contact-section{
-  display: none;
-}
+
 /* new */
+#homeButton{
+  width: 90%;
+  margin: 1px;
+  border-radius: 25px;
+  height: 50px;
+  margin-left: 5%;
+  font-size: 25px;
+  background-color: #5561e1;
+  margin-top: 25px;
+  
+}
+#aboutButton{
+  width: 90%;
+  margin: 1px;
+  border-radius: 25px;
+  height: 50px;
+  margin-left: 5%;
+  font-size: 25px;
+  background-color: #5561e1;
+  margin-top: 25px;
+}
+#skillButton{
+  width: 90%;
+  margin: 1px;
+  border-radius: 25px;
+  height: 50px;
+  margin-left: 5%;
+  font-size: 25px;
+  background-color: #5561e1;
+  margin-top: 25px;
+}
+#serviceButton{
+  width: 90%;
+  margin: 1px;
+  border-radius: 25px;
+  height: 50px;
+  margin-left: 5%;
+  font-size: 25px;
+  background-color: #5561e1;
+  margin-top: 25px;
+}
+#projectButton{
+  width: 90%;
+  margin: 1px;
+  border-radius: 25px;
+  height: 50px;
+  margin-left: 5%;
+  font-size: 25px;
+  background-color: #5561e1;
+  margin-top: 25px;
+}
+#blogButton{
+  width: 90%;
+  margin: 1px;
+  border-radius: 25px;
+  height: 50px;
+  margin-left: 5%;
+  font-size: 25px;
+  background-color: #5561e1;
+  margin-top: 25px;
+}
+#contactButton{
+  width: 90%;
+  margin: 1px;
+  border-radius: 25px;
+  height: 50px;
+  margin-left: 5%;
+  font-size: 25px;
+  background-color: #5561e1;
+  margin-top: 25px;
+}
+
+/* skill section */
+#myProgress {
+  position: relative;
+  width: 80%;
+  height: 30px;
+  margin: 3%;
+  margin-left: 100px;
+  background-color: grey;
+}
+#myBar {
+  position: absolute;
+  width: 1%;
+  height: 100%;
+  background-color: green;
+}
