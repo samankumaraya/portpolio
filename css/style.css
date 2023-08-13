@@ -560,3 +560,10 @@ left: 50px;
   height: 100%;
   background-color: green;
 }
+.container-logo{
+  margin-left: 6%;
+}
+.container-logo img{
+  width: 250px;
+  height: 200px;
+}
